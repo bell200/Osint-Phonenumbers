@@ -3,7 +3,7 @@ from phonenumbers import geocoder
 from art import *
 import opencage
 tprint("Created    by    yousef")
-print("This osint tool for phonenubers")
+print("This osint tool for phonenumbers")
 number1 = input("Enter your number without +:")
 number = ("+"+number1)
 phnumber =phonenumbers.parse(number)
@@ -21,3 +21,4 @@ results = geocoder.geocode(query)
 lat = results[0] ['geometry']['lat']
 lng = results[0] ['geometry']['lng']
 print(lat,lng)
+print("Godebye!!")
