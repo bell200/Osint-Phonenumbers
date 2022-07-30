@@ -1,5 +1,4 @@
 import phonenumbers
-import os
 from phonenumbers import geocoder
 from art import *
 import opencage
@@ -23,4 +22,4 @@ lat = results[0] ['geometry']['lat']
 lng = results[0] ['geometry']['lng']
 print(lat,lng)
 print("Godebye!!")
-os.system('cmd /k "find "972504774405" phonenumbers.txt"')
+
